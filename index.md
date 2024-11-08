@@ -7,16 +7,15 @@ Introduction to Operation Management:
 
 ### Introduction to Operation Management: Centro Integrado Cuatrovientos
 
-{% assign units = site.pages  %}
-{% for activity in units  | sort  %}
-[{{ activity.unit.title }}]({{ activity.permalink }})
+{% assign eqfs = site.pages  %}
+{% for eqf in eqfs  | sort  %}
+[{{ eqf.module.title }}]({{ eqf.permalink }})
 {% endfor %}
 
-
 After you complete this Introduction to Operation Management, you will be able to:
+
 - Cras tincidunt massa et nunc vulputate, eget vestibulum massa tincidunt.
 - Maecenas suscipit at nisl vitae malesuada.
 - Suspendisse eu arcu id velit consequat venenatis.
 
 - **Estimated Time**: 300 minutes
-
